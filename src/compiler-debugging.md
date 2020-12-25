@@ -151,10 +151,15 @@ These crates are used in compiler for logging:
 * [log]
 * [env-logger]
 * [tracing]
+* [tracing-tree]
 
-[log]: https://docs.rs/log/0.4.6/log/index.html
+[log]: https://docs.rs/log
 [env-logger]: https://docs.rs/env_logger
 [tracing]: https://docs.rs/tracing
+[tracing-tree]: https://crates.io/crates/tracing-tree
+
+These crates work together to provide all the logging functionality.
+
 
 The compiler has a lot of `debug!` calls, which print out logging information
 at many points. These are very useful to at least narrow down the location of
